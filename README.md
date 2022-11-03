@@ -35,6 +35,7 @@ landing page project for udacity course
 - function to check, if a section is on screen isInViewport
 - use getBoundingClientRect()
 - returns true / false
+    -> helping source: https://www.javascripttutorial.net/dom/css/check-if-an-element-is-visible-in-the-viewport/
 
 - set section1 to active on navbar by default
 
