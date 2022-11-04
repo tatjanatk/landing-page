@@ -12,7 +12,7 @@ landing page project for udacity course
 
 ## Create Navbar
 
-- function creareNavbar
+- function createNavbar
 - pass number of index on function call
 - create "li" elements
 - set id's for created elements
