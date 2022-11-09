@@ -77,7 +77,10 @@ document.addEventListener("DOMContentLoaded", function app() {
     };
 
     //set section to class active, if in viewport
-    document.addEventListener("scroll", function setActive(){
+    document.addEventListener("scroll", setActive);
+    document.addEventListener("touchmove", setActive);
+    
+    function setActive(){
         for (let i=1; i<=secNum; i++){
 
             const sec = document.getElementById("sec" + i);
@@ -96,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function app() {
                 });
             }
         }
-    });
+    }
 
     // Scroll to section onclick -> i <= number of sections
     for (let i=1; i<=secNum; i++){
