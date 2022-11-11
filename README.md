@@ -43,18 +43,12 @@ Author: Tatjana
 
 - set section 1 to active on navbar by default
 
-- helper function: getSiblings
-    -> returns all siblings of element, passed to function
-    -> helping source: https://www.javascripttutorial.net/javascript-dom/javascript-siblings/
-    
 - event listener on scroll
 - set variables sec & section with index i
-- get siblings of elements
 - check if different sections are on screen by calling isInViewport with id of section
 - set section class to "your-active-class" and navbar item to "active"
     -> .active class added to CSS file
-- remove those classes from other sections (siblings of element)
-    -> heling source: https://stackoverflow.com/questions/46566873/add-a-class-to-each-element-within-an-array
+- remove those classes from other sections not in viewport
 
 ## Scroll to Section
 
